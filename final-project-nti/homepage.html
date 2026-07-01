@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="border-bottom py-3 bg-white fixed-top shadow-sm" style="z-index: 10000;">
+        <div
+            class="container px-3 px-md-5 d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
+
+            <div class="d-flex align-items-center justify-content-between w-100 w-lg-auto gap-4">
+                <img src="img/logo.png" alt="Logo" class="img-fluid" style="max-width: 120px;">
+
+                <div class="d-flex align-items-center d-lg-flex">
+                    <a href="#" class="hover-red text-decoration-none text-dark d-flex align-items-center">
+                        <i class="fa-solid fa-phone fa-lg me-2 text-danger"></i>
+                        <div>
+                            <div class="fw-semibold xs-text" style="font-size: 0.75rem;">Contact us 24/7</div>
+                            <div class="fw-bold small">(+92) 3942 7879</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-100 w-lg-35">
+                <div class="input-group border rounded py-1 bg-light">
+                    <select class="form-select border-0 border-end bg-transparent shadow-none d-none d-sm-block"
+                        style="max-width: 140px;">
+                        <option>All Categories</option>
+                        <option>Electronics</option>
+                        <option>Clothing</option>
+                        <option>Books</option>
+                    </select>
+                    <input type="text" class="form-control border-0 bg-transparent shadow-none"
+                        placeholder="Search for products...">
+                    <button class="btn btn-dark px-3 mx-1 rounded">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div
+                class="d-flex align-items-center justify-content-center justify-content-lg-end gap-3 flex-wrap w-100 w-lg-auto">
+
+                <div class="english-wrapper" style="position:relative; display:inline-block;">
+                    <a href="#" class="hover-red text-decoration-none text-dark">
+                        <div class="d-flex align-items-center me-2">
+                            <img src="img/OIP.webp" alt="" width="30" class="me-1 rounded-sm">
+                            <span class="small fw-semibold me-1">English</span>
+                            <i class="fa-solid fa-chevron-down fa-xs"></i>
+                        </div>
+                    </a>
+                    <div class="english-menu"
+                        style="display:none; position:absolute; top:100%; left:0; background:#fff; border:1px solid #ddd; border-radius:8px; min-width:140px; z-index:100; padding:6px 0;">
+                        <div class="d-flex align-items-center px-2"><img src="img/espanol.png" alt="" class="me-1"><a
+                                href="#" style="display:block; padding:8px 16px; text-decoration:none; color:#333;"
+                                class="hover-red">Espanol</a></div>
+                        <div class="d-flex align-items-center px-2"><img src="img/francais.png" alt="" class="me-1"><a
+                                href="#" style="display:block; padding:8px 16px; text-decoration:none; color:#333;"
+                                class="hover-red">Francais</a></div>
+                        <div class="d-flex align-items-center px-2"> <img src="img/portugues.png" alt="" class="me-1"><a
+                                href="#" style="display:block; padding:8px 16px; text-decoration:none; color:#333;"
+                                class="hover-red">Portugues</a></div>
+                    </div>
+                </div>
+
+                <div class="usd-wrapper" style="position:relative; display:inline-block;">
+                    <a href="#" class="hover-red text-decoration-none text-dark">
+                        <span class="small fw-semibold me-1">USD</span>
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </a>
+                    <div class="usd-menu"
+                        style="display:none; position:absolute; top:100%; left:0; background:#fff; border:1px solid #ddd; border-radius:8px; min-width:120px; z-index:100; padding:6px 0;">
+                        <a href="#" style="display:block; padding:8px 16px; text-decoration:none; color:#333;"
+                            class="hover-red">EUR</a>
+                        <a href="#" style="display:block; padding:8px 16px; text-decoration:none; color:#333;"
+                            class="hover-red">BRL</a>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center"><a href="#" class="hover-red text-decoration-none text-dark">
+                        <i class="fa-regular fa-user me-1"></i>
+                        <span class="small fw-semibold">Account</span></a>
+                </div>
+
+                <div class="position-relative mx-1"><a href="#" class="hover-red text-dark">
+                        <i class="fa-regular fa-heart fs-5"></i>
+                        <span class="badge bg-danger rounded-circle position-absolute top-0 start-100 translate-middle"
+                            style="font-size: 0.65rem;">0</span></a>
+                </div>
+
+                <div class="position-relative mx-1"><a href="#" class="hover-red text-dark">
+                        <i class="fa-solid fa-cart-shopping fs-5"></i>
+                        <span class="badge bg-danger rounded-circle position-absolute top-0 start-100 translate-middle"
+                            style="font-size: 0.65rem;">0</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="border-bottom py-3 mt-3 pt-4 pt-lg-3">
+        <div class="container px-3 px-md-5 d-flex flex-wrap align-items-center justify-content-between gap-3">
+            <div class="d-flex flex-wrap align-items-center gap-3 gap-md-4">
+                <div class="d-flex align-items-center border-end pe-3 me-2">
+                    <button type="button"
+                        class="hover-red text-dark d-flex align-items-center border-0 bg-transparent p-0"
+                        data-bs-toggle="offcanvas" data-bs-target="#categoriesMenu" aria-controls="categoriesMenu">
+                        <i class="fa-solid fa-bars me-2"></i>
+                        <span class="fw-bold small">Shop By Categories</span>
+                    </button>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 overflow-x-auto text-nowrap menu-scroll">
+                    <div class="homepage-wrapper">
+                        <a href="homepage.html" class="hover-red text-decoration-none text-dark">
+                            <div class="d-flex align-items-center me-2">
+                                <span class="small fw-semibold me-1">Homepages</span>
+                                <i class="fa-solid fa-chevron-down fa-xs"></i>
+                            </div>
+                        </a>
+                        <div id="homepagesSection" class="mega-menu-content d-none d-lg-block">
+                            <div class="container py-5">
+                                <div class="row g-4">
+                                    <div class="col-6 col-md-3">
+                                        <div class="border rounded overflow-hidden shadow-sm bg-white"><img
+                                                src="img/mega-home-1.jpg" alt="" class="img-fluid">
+                                            <p class="text-center fw-semibold py-2 mb-0">Supermarket 01</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="border rounded overflow-hidden shadow-sm bg-white"><img
+                                                src="img/mega-home-2.jpg" alt="" class="img-fluid">
+                                            <p class="text-center fw-semibold py-2 mb-0">Supermarket 02</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="border rounded overflow-hidden shadow-sm bg-white"><img
+                                                src="img/mega-home-3.jpg" alt="" class="img-fluid">
+                                            <p class="text-center fw-semibold py-2 mb-0">Furniture</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="border rounded overflow-hidden shadow-sm bg-white"><img
+                                                src="img/mega-home-4.jpg" alt="" class="img-fluid">
+                                            <p class="text-center fw-semibold py-2 mb-0">Electronic</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 offset-md-3">
+                                        <div class="border rounded overflow-hidden shadow-sm bg-white"><img
+                                                src="img/mega-home-5.jpg" alt="" class="img-fluid">
+                                            <p class="text-center fw-semibold py-2 mb-0">Autopart</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="border rounded overflow-hidden shadow-sm bg-white"><img
+                                                src="img/mega-home-6.jpg" alt="" class="img-fluid">
+                                            <p class="text-center fw-semibold py-2 mb-0">Cosmetic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="hover-red text-decoration-none text-dark me-2"><span
+                            class="small fw-semibold me-1">Categories</span><i
+                            class="fa-solid fa-chevron-down fa-xs"></i></a>
+                    <a href="index.html" class="hover-red text-decoration-none text-dark me-2"><span
+                            class="small fw-semibold me-1">Products</span><i
+                            class="fa-solid fa-chevron-down fa-xs"></i></a>
+                    <a href="#" class="hover-red text-decoration-none text-dark me-2"><span
+                            class="small fw-semibold me-1">Pages</span><i
+                            class="fa-solid fa-chevron-down fa-xs"></i></a>
+                    <a href="#" class="hover-red text-decoration-none text-dark small fw-semibold me-3">About us</a>
+                    <a href="#" class="hover-red text-decoration-none text-dark small fw-semibold me-3">Blog</a>
+                    <a href="#" class="hover-red text-decoration-none text-dark">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-ticket me-1"></i><span class="small fw-semibold">Best Discount</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="hover-red text-decoration-none text-dark d-none d-sm-inline-block">
+                <div class="d-flex align-items-center">
+                    <span class="small fw-semibold me-1">Recently viewed</span><i
+                        class="fa-solid fa-chevron-down fa-xs"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="categoriesMenu" style="z-index: 10000;">
+
+        <div class="offcanvas-header bg-black text-white px-4 py-3">
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-bars me-3"></i>
+                <h5 class="m-0 text-uppercase fw-bold small">Shop By Categories</h5>
+            </div>
+        </div>
+
+        <div class="offcanvas-body p-0">
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-shirt me-3"></i>
+                    <span class="fw-semibold">Fashion</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-mobile-screen-button me-3"></i>
+                    <span class="fw-semibold">Phone & Tablet</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-laptop me-3"></i>
+                    <span class="fw-semibold">Laptop & Computer</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-laptop me-3"></i>
+                    <span class="fw-semibold">TV, Audio - Video</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-camera me-3"></i>
+                    <span class="fw-semibold">Camera & Photo</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-couch me-3"></i>
+                    <span class="fw-semibold">Home & Decor</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-face-grin-hearts me-3"></i>
+                    <span class="fw-semibold">Beauty & Health</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-gamepad me-3"></i>
+                    <span class="fw-semibold">Game Accessories</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+            <a href="#"
+                class="d-flex justify-content-between align-items-center text-decoration-none text-dark px-4 py-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-gear me-3"></i>
+                    <span class="fw-semibold">Autopart</span>
+                </div>
+                <i class="fa-solid fa-chevron-right text-secondary small"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <section class="container-fluid row p-0 justify-content-center" style="height: 500px; overflow: hidden;">
+
+        <div class="col-8 p-0">
+            <div id="oneslider" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#oneslider" data-bs-slide-to="0" class="active"
+                        aria-current="true"></button>
+                    <button type="button" data-bs-target="#oneslider" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#oneslider" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100" style="height: 480px; background-color: #ae392a;">
+                        <div class="position-absolute top-50 start-0 translate-middle-y text-start p-4 ms-5"
+                            style="z-index: 9; width: 35%;">
+                            <h3 class="text-white animate__animated animate__fadeInRight">limited time offer</h3>
+                            <h2 class="text-white fw-bold animate__animated animate__fadeInLeft"
+                                style="font-size: 40px;">up to 20% instant camera fujfilm's</h2>
+                            <button
+                                class="btn bg-white text-dark fw-bold border-0 animate__animated animate__fadeInRight">shop
+                                now</button>
+                        </div>
+                        <div class="col-12 text-end h-100">
+                            <img src="img/cameraaa.png" class="w-50 h-100 animate__animated animate__fadeInRight"
+                                style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item h-100" style="height: 480px; background-color: #77a3a5;">
+                        <div class="position-absolute top-50 start-0 translate-middle-y text-start p-4 ms-5"
+                            style="z-index: 9; width: 35%;">
+                            <h3 class="text-white animate__animated animate__fadeInRight">limited time offer</h3>
+                            <h2 class="text-white fw-bold animate__animated animate__fadeInLeft"
+                                style="font-size: 40px;">from Italia sale 25% off armchairs!</h2>
+                            <button
+                                class="btn bg-white text-dark fw-bold border-0 animate__animated animate__fadeInRight">shop
+                                now</button>
+                        </div>
+                        <div class="col-12 text-end h-100">
+                            <img src="img/korsey.jpg" class="w-50 h-100 animate__animated animate__fadeInRight"
+                                style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item h-100" style="height: 480px; background-color: #dfbfa3;">
+                        <div class="position-absolute top-50 start-0 translate-middle-y text-start p-4 ms-5"
+                            style="z-index: 9; width: 35%;">
+                            <h3 class="text-white animate__animated animate__fadeInRight">limited time offer</h3>
+                            <h2 class="text-white fw-bold animate__animated animate__fadeInLeft"
+                                style="font-size: 40px;">up to 20% instant camera fujifilm's</h2>
+                            <button
+                                class="btn bg-white text-dark fw-bold border-0 animate__animated animate__fadeInRight">shop
+                                now</button>
+                        </div>
+                        <div class="col-12 text-end h-100">
+                            <img src="img/bnttt.jpg" class="w-50 h-100 animate__animated animate__fadeInRight"
+                                style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 p-0">
+
+            <div class="position-relative overflow-hidden" style="height: 50%;">
+                <div class="col-12 text-end h-100" style="background-color: #e6e6e6;">
+                    <img src="img/cosmatttticcsss.jpg" alt="" class="w-75 h-100 hover-zoom"
+                        style="object-fit: cover; transition: transform 0.4s;">
+                </div>
+                <div class="position-absolute top-50 start-0 translate-middle-y text-start p-4 ms-3"
+                    style="z-index: 9; width: 55%;">
+                    <h4 class="fw-bold small mb-1">black friday</h4>
+                    <h2 class="fw-bold">big sale eyeshadow</h2>
+                    <p class="small">over +100 items</p>
+                    <button class="btn border border-1 border-dark fw-bold small">shop now</button>
+                </div>
+            </div>
+
+            <div class="position-relative overflow-hidden" style="height: 50%;">
+                <div class="col-12 text-end h-100" style="background-color: #e6e6e6;">
+                    <img src="img/mohamedramdan.jpg" alt="" class="w-75 h-100 hover-zoom"
+                        style="object-fit: cover; transition: transform 0.4s;">
+                </div>
+                <div class="position-absolute top-50 start-0 translate-middle-y text-start p-4 ms-3"
+                    style="z-index: 9; width: 55%;">
+                    <h4 class="fw-bold small mb-1">new collection</h4>
+                    <h2 class="fw-bold">puffer jacket 30% off</h2>
+                    <p class="small">best jacket in year</p>
+                    <button class="btn border border-1 border-dark fw-bold small">shop now</button>
+                </div>
+                <div class="position-absolute bg-danger rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 55px; height: 55px; top: 0%; right: 5%; z-index: 99;">
+                    <h6 class="fw-bold text-white mb-0"><span style="font-size: 10px;">$</span>29</h6>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <div class="container py-5">
+        <h5 class="fw-bold mb-4">Flash Deals</h5>
+
+        <div id="topslider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+
+                    <li class="splide__slide related-card border position-relative ">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-35%</span>
+
+                            <img src="img/electronic-30-6-300x300.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">laptop asus vivobook <br>8gb ram,512geb ssd</p>
+                            <p class="fw-bold mb-0">$999 <span
+                                    class="text-muted small text-decoration-line-through">$1536</span>
+                            </p>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-xs"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px"> <span
+                                class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-6%</span>
+
+                            <img src="img/watchhhh.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">apple watch series 9 gps <br> 45mm, aluminium case with..</p>
+                            <div class="d-flex">
+                                <p class="fw-bold mb-0">$890</p><span
+                                    class="text-muted small text-decoration-line-through ms-2">$950</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-xs"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px"> <span
+                                class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-8</span>
+
+                            <img src="img/shyala.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">tools 34 low profile hydulic <br> trolley
+                            </p>
+                            <div class="d-flex">
+                                <p class="fw-bold mb-0">$767</p><span
+                                    class="text-muted small text-decoration-line-through ms-2">$837</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px"> <span
+                                class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-33%</span>
+                            <img src="img/sa3a.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">14-inch fasion simplicity quality wall clock,home decor</p>
+                            <div class="d-flex">
+                                <p class="fw-bold mb-0">$50</p><span
+                                    class="text-muted small text-decoration-line-through ms-2">$75</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-xs"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px"> <span
+                                class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-37%</span>
+
+                            <img src="img/makeup.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">translucent compact face powder- -3 medium, 0.22 oz</p>
+                            <div class="d-flex">
+                                <p class="fw-bold mb-0">$9</p><span
+                                    class="text-muted small text-decoration-line-through ms-2">$14</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-xs"></i>
+                                <i class="fa-regular fa-star fa-xs"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px"> <span
+                                class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-17%</span>
+
+                            <img src="img/lipp.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">allure luminous intense lipstick <br> 0.15oz</p>
+                            <div class="d-flex">
+                                <p class="fw-bold mb-0">$20</p><span
+                                    class="text-muted small text-decoration-line-through ms-2">$24</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+
+                            <img src="img/tshirt.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">tonga on tshirt for men,<br> wommen short sleeve tee</p>
+                            <p class="fw-bold mb-0">$43 </p>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-regular fa-star fa-xs"></i>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-37</span>
+
+                            <img src="img/forsha.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">makeup brushes artison easel <br> elite cosmatics</p>
+                            <p class="fw-bold mb-0">$19 <span
+                                    class="text-muted small text-decoration-line-through">$30</span>
+                            </p>
+                            <div>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                                <i class="fa-solid fa-star fa-xs"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="container py-5">
+        <div class="row g-3">
+
+            <div class="col-12 col-md-3">
+                <div class="animate__animated animate__fadeInLeft rounded overflow-hidden position-relative"
+                    style="height: 300px;">
+                    <div class="rotate-second-section">
+
+                        <img src="img/hyundai.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 p-3 pb-4 ms-5">
+                        <i class="text-white fw-bold fs-5 mb-0">SALE 10% OFF<br>TIRES MICHELIN</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="animate__animated animate__fadeInUp rounded overflow-hidden position-relative bg-light"
+                    style="height: 300px;">
+
+                    <div class="text-center pt-4 position-relative" style="z-index: 999;">
+                        <p class="text-danger fw-semibold small text-uppercase mb-1">New Collection</p>
+                        <h3 class="fw-bold">Sofa Crafted in UK</h3>
+                        <a href="#" class="text-dark fw-semibold text-decoration-underline small">Shop now →</a>
+                    </div>
+                    <div class="rotate-second-section">
+                        <img src="img/sofa.jpg" alt=""
+                            style="position: absolute; bottom: 0;   width: 100%; height: auto; object-fit: cover;">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <div class="animate__animated animate__fadeInRight rounded overflow-hidden position-relative"
+                    style="height: 300px; background-color: #ebc4c4;">
+                    <div class="rotate-second-section">
+                        <img src="img/cream.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 p-3 pb-4 ms-5">
+                        <i class="text-white fw-bold fs-5 mb-0">Steals under $25</i><br>
+                        <p class="text-white fst-italic fs-4 mb-0">Beauty</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="container py-5">
+
+        <div class="d-flex align-items-center justify-content-between mb-4 flex-wrap ">
+            <h4 class="fw-bold mb-0">New arrivals</h4>
+            <div class="d-flex align-items-center gap-4 flex-wrap">
+                <a href="#" class="text-dark fw-semibold text-decoration-none nav-tab active-tab">Fashion</a>
+                <a href="#" class="text-dark text-decoration-none nav-tab">Phone & Tablet</a>
+                <a href="#" class="text-dark text-decoration-none nav-tab">Home & Decor</a>
+                <a href="#" class="text-dark text-decoration-none nav-tab">Beauty & Health</a>
+                <a href="#" class="text-dark fw-semibold text-decoration-underline">See All
+                    Products</a>
+            </div>
+        </div>
+
+        <div class="border rounded">
+            <div class="row ">
+
+                <div class="col-12 col-md-4 border-end border-bottom position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-3">HOT</span>
+                    <div class="d-flex align-items-center p-4">
+                        <img src="img/fashion-4.jpg" alt="" class="product-bar">
+                        <div>
+                            <p class="small mb-1 fw-semibold">Nike Air Max Unisex SYSTM Men Sneaker
+                                Shoes</p>
+                            <p class="fw-bold mb-1">$148</p>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 border-end border-bottom">
+                    <div class="d-flex align-items-center p-4">
+                        <img src="img/2b.jpg" alt="" class="product-bar">
+                        <div>
+                            <p class="small mb-1 fw-semibold">100% UV Protected Sunglasses For Men
+                            </p>
+                            <p class="fw-bold mb-1">$123</p>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 border-bottom">
+                    <div class="d-flex align-items-center  p-4">
+                        <img src="img/fashion-5.jpg" alt="" class="product-bar">
+                        <div>
+                            <p class="small mb-1 fw-semibold">LV Women Leather Accent Denim Mini
+                                Skirt</p>
+                            <p class="fw-bold mb-1">$1,390</p>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-regular fa-star fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 border-end">
+                    <div class="d-flex align-items-center  p-4">
+                        <img src="img/4b.jpg" alt="" class="product-bar">
+                        <div>
+                            <p class="small mb-1 fw-semibold">A Different Christmas Knit Holiday
+                                Sweater</p>
+                            <p class="fw-bold mb-1">$50 - $65</p>
+                            <i class="fa-regular fa-star fa-xs"></i>
+                            <i class="fa-regular fa-star fa-xs"></i>
+                            <i class="fa-regular fa-star fa-xs"></i>
+                            <i class="fa-regular fa-star fa-xs"></i>
+                            <i class="fa-regular fa-star fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 border-end">
+                    <div class="d-flex align-items-center p-4">
+                        <img src="img/5b.jpg" alt="" class="product-bar">
+                        <div>
+                            <p class="small mb-1 fw-semibold">Winter New Jacket Loose Retro American
+                                Campus</p>
+                            <p class="fw-bold mb-1">$160</p>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="d-flex align-items-center  p-4">
+                        <img src="img/6b.jpg" alt="" class="product-bar">
+                        <div>
+                            <p class="small mb-1 fw-semibold">Winter Hats with Top Ball Custom
+                                Design</p>
+                            <p class="fw-bold mb-1">$17</p>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="d-flex align-items-center overflow-hidden position-relative"
+        style="min-height:620px; background-color:#eef0f2;">
+
+        <span
+            style="position:absolute;left:10%;top:50%;top:30%;font-size:10rem;font-weight:900;color:rgba(59, 58, 58, 0.7);white-space:nowrap;z-index:10;">Hoodie</span>
+
+        <div class="position-relative" style="width:60%;min-height:620px;">
+
+            <img id="mainImg" src="img/167-4.jpg" alt=""
+                style="max-height:610px;object-fit:contain;position:absolute;bottom:0;left:50%;left:15%;mix-blend-mode:multiply;">
+
+            <span class="bdge bg-danger rounded-circle fw-bold"
+                style="position:absolute;top:28%;left:60%;width:80px;height:80px;font-size:1.1rem;display:flex;align-items:center;justify-content:center;z-index:4;">-30%</span>
+        </div>
+
+        <div style="width:35%;z-index:2;margin-right:3%;">
+            <div class="bg-white rounded-4 shadow-lg p-4 p-xl-5">
+                <h2 class="fw-bold mb-3" style="font-size:1.6rem;">Athletics Embroidered Relaxed
+                    Hoodie</h2>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2 small"><i class="fa-solid fa-check text-success me-2"></i>64%
+                        cotton, 36%
+                        polyester
+                    </li>
+                    <li class="mb-2 small"><i class="fa-solid fa-check text-success me-2"></i>Do not
+                        dry clean
+                    </li>
+                    <li class="mb-2 small"><i class="fa-solid fa-check text-success me-2"></i>Machine wash</li>
+                </ul>
+                <p class="fw-bold mb-3" style="font-size:2rem;">$89 <span
+                        class="text-muted fw-normal text-decoration-line-through" style="font-size:1.1rem;">$120</span>
+                </p>
+
+                <div class="d-flex gap-2 mb-4">
+                    <img src="img/167-2.jpg" class="rounded border thumb"
+                        style="width:62px;height:62px;object-fit:cover;" onclick="changeImg(this)">
+                    <img src="img/167-3.jpg" class="rounded border thumb"
+                        style="width:62px;height:62px;object-fit:cover;cursor:pointer;" onclick="changeImg(this)">
+                    <img src="img/167-4.jpg" class="rounded border border-2 border-dark thumb active-thumb"
+                        style="width:62px;height:62px;object-fit:cover;" onclick="changeImg(this)">
+                    <img src="img/167-3.jpg" class="rounded border thumb"
+                        style="width:62px;height:62px;object-fit:cover;" onclick="changeImg(this)">
+                </div>
+
+                <button class="btn btn-dark w-100 py-3 fw-bold text-uppercase" style="letter-spacing:0.1em;">BUY
+                    NOW</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container py-5">
+        <h5 class="fw-bold mb-4">Related products</h5>
+
+        <div id="firstslider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+
+                    <li class="splide__slide related-card border position-relative ">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-17</span>
+
+                            <img src="img/cosmetics-1.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center "
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">Allure Luiminoud Intense Lipstick <br>0.15oz</p>
+                            <p class="fw-bold mb-0">$69 <span
+                                    class="text-muted small text-decoration-line-through">$24</span>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <img src="img/cosmetic-2.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">Eye shadow paette ,natural nudes,0.19 ounce</p>
+                            <p class="fw-bold mb-0">$28</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <img src="img/cosmetic-3.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">Makeup voluminous original volume building mascara
+                            </p>
+                            <p class="fw-bold mb-0">$15</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">HOT</span>
+                            <img src="img/fashion-4.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">Portable Wireless Bluetooth Speaker, Water
+                                Resistant</p>
+                            <p class="fw-bold mb-0">$115</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <img src="img/fashion-5.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">Nike air max unisex sysytm men sneaker shoes</p>
+                            <p class="fw-bold mb-0">$148</p>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-17</span>
+
+                            <img src="img/automotive-6.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">LV women leather accent denim <br> Mini skirt</p>
+                            <p class="fw-bold mb-0">$1390</p>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-8</span>
+
+                            <img src="img/automotive-7.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">High-Performance Carbon fiber wheels</p>
+                            <p class="fw-bold mb-0">$499 <span
+                                    class="text-muted small text-decoration-line-through">$599</span>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card border border-start-0 position-relative">
+                        <div class="position-relative d-flex align-items-center justify-content-center bg-light"
+                            style="height:220px">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2 ms-4">-35</span>
+
+                            <img src="img/electronic-8.jpg" alt="" class="img-fluid"
+                                style="max-height:250px;object-fit:contain">
+                            <div class="related-icons position-absolute top-0 end-0 d-flex flex-column gap-2 p-2">
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i class="fa-regular fa-heart fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-arrows-left-right fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                                <button
+                                    class="btn btn-white border bg-white rounded-circle d-flex align-items-center justify-content-center p-0"
+                                    style="width:34px;height:34px"><i
+                                        class="fa-solid fa-cart-shopping fa-sm"></i></button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <p class="small mb-1">Tools 34 low profile hydaulic <br> trolley</p>
+                            <p class="fw-bold mb-0">$767 <span
+                                    class="text-muted small text-decoration-line-through">$837</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="py-5 container">
+        <h3 class="fw-bold mb-4"> From Our Blog</h3>
+        <div id="secondslider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+
+                    <li class="splide__slide related-card">
+                        <div class="card p-4 border-0  text-start ">
+                            <div class="rottate">
+                                <img src="img/blog-1.jpg" class="img-fluid " alt="">
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-3 mb-2 small">
+                                <span class="text-secondary small">BUEATY & FASHION</span>
+                                <span class="blog-slash"></span>
+                                <span class="text-muted small">By <strong class="text-dark">Myoui
+                                        Mina</strong></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Weekday Outfit Inspiration For All Occassion
+                                </h5>
+                                <p class="text-muted small">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <button class="btn btn-outline-dark btn-sm fw-bold ">READ
+                                    MORE</button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card">
+                        <div class="card p-4 border-0 text-start">
+                            <div class="rottate">
+                                <img src="img/blog-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-3 mb-2 small">
+                                <span class="text-secondary small">COSMETICS</span>
+                                <span class="blog-slash"></span>
+                                <span class="text-muted small">By <strong class="text-dark">Myoui
+                                        Mina</strong></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">100% Pure & Natural Sage Essential Oil</h5>
+                                <p class="text-muted small">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <button class="btn btn-outline-dark btn-sm fw-bold ">READ
+                                    MORE</button>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card">
+                        <div class="card p-4 border-0 text-start">
+                            <div class="rottate">
+                                <img src="img/blog-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-3 mb-2 small">
+                                <span class="text-secondary small">ELECTRONICS</span>
+                                <span class="blog-slash "></span>
+                                <span class="text-muted small">By <strong class="text-dark">Myoui
+                                        Mina</strong></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Tips For Cleaning Disktop & Laptop</h5>
+                                <p class="text-muted small">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <button class="btn btn-outline-dark btn-sm fw-bold ">READ
+                                    MORE</button>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide related-card">
+                        <div class="card p-4 border-0 text-start">
+                            <div class="rottate">
+                                <img src="img/blog-4.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-3 mb-2 small">
+                                <span class="text-secondary small">COSMETICS</span>
+                                <span class="blog-slash "></span>
+                                <span class="text-muted small">By <strong class="text-dark">Myoui
+                                        Mina</strong></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">Giorgio Armani Si Intense Eau de Parfum Review
+                                </h5>
+                                <p class="text-muted">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <button class="btn btn-outline-dark btn-sm fw-bold ">READ
+                                    MORE</button>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card">
+                        <div class="card p-4 border-0 text-start">
+                            <div class="rottate">
+                                <img src="img/blog-5-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-3 mb-2 small">
+                                <span class="text-secondary small">AUTOPARTS</span>
+                                <span class="blog-slash "></span>
+                                <span class="text-muted small">By <strong class="text-dark">Myoui
+                                        Mina</strong></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">The best Affordable Convertible Cars to Rent
+                                </h5>
+                                <p class="text-muted">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <button class="btn btn-outline-dark btn-sm fw-bold letter-spacing">READ
+                                    MORE</button>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide related-card">
+                        <div class="card p-4 border-0 text-start">
+                            <div class="rottate">
+                                <img src="img/blog-6.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-3 mb-2  small">
+                                <span class="text-secondary">ELECTRONICS</span>
+                                <span class="blog-slash  small"></span>
+                                <span class="text-muted small">By <strong class="text-dark">Myoui
+                                        Mina</strong></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fw-bold">10 Things to Learn from Apple's Marketing
+                                    Strategy</h5>
+                                <p class="text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Lorem, ipsum dolor.
+                                </p>
+                                <button class="btn btn-outline-dark btn-sm fw-bold ">READ
+                                    MORE</button>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid py-5" style="background-color: rgb(205, 211, 216);">
+
+        <h3 class="text-center fw-bold mb-5">
+            Looking for something else?
+        </h3>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+
+                <div class="d-flex bg-white rounded overflow-hidden">
+
+                    <input type="text" class="form-control border-0 shadow-none p-3"
+                        placeholder="Search for products...">
+
+                    <button class="btn btn-dark px-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3">smartphone</a>
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3">tablet</a>
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3"> controller</a>
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3"> furniture </a>
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3"> laptop</a>
+            <a href="#" class="text-decoration-none text-dark pe-3">playstation </a> <br>
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3">womens fashion </a>
+            <a href="#" class="text-decoration-none text-dark border-end border-dark pe-3 me-3"> home & decor</a>
+            <a href="#" class="text-decoration-none text-dark">camera</a>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="bg-dark text-white-50 pt-5 pb-3">
+        <div class="container px-3 px-md-5">
+
+            <div class="row g-4 pb-4 border-bottom border-secondary">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="img/logo (1).png" alt="" class="img-fluid mb-3" style="max-width: 130px;">
+                    <p class="small mb-2"><i class="fa-solid fa-location-dot me-2"></i>29 SE 2nd Ave, Miami, FL 33131
+                    </p>
+                    <p class="small mb-2"><i class="fa-solid fa-envelope me-2"></i>info@example.com</p>
+                    <a class="hover-red fw-bold fs-5 text-white text-decoration-none">(+92) 3942 7879</a>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <h6 class="text-white fw-bold small mb-3">SHOPPING</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#"
+                                class="hover-red text-white-50 text-decoration-none small">Wishlist</a></li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">Shop by
+                                Brand</a></li>
+                        <li class="mb-2"><a href="#"
+                                class="hover-red text-white-50 text-decoration-none small">Offers</a></li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">Track
+                                order</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <h6 class="text-white fw-bold small mb-3">INFORMATION</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">Track
+                                Order</a></li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">Shipping
+                                Info</a></li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">About
+                                us</a></li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">Help</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <h6 class="text-white fw-bold small mb-3">ACCOUNT</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">Cart</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">My
+                                account</a></li>
+                        <li class="mb-2"><a href="#" class="hover-red text-white-50 text-decoration-none small">My
+                                orders</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="text-white fw-bold mb-3">Let's keep in touch</h6>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control border-secondary bg-dark text-white shadow-none"
+                            placeholder="Enter your email">
+                        <button class="btn btn-secondary" type="button"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 fs-5">
+                        <a href="#" class="text-white-50 hover-red"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-white-50 hover-red"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="text-white-50 hover-red"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="text-white-50 hover-red"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-4 border-bottom border-secondary">
+                <div class="col-12">
+                    <div
+                        class="d-flex flex-column flex-lg-row justify-content-between align-items-start align-items-lg-center border border-secondary rounded p-3 gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-phone fa-lg text-white-50"></i>
+                            <div>
+                                <p class="text-white fw-semibold mb-0 small">Didn't find what you were looking for?</p>
+                                <a href="#" class="text-white text-decoration-underline small">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-regular fa-face-smile fa-lg text-white-50"></i>
+                            <div>
+                                <p class="text-white fw-semibold mb-0 small">How can we help you today?</p>
+                                <a href="#" class="text-white text-decoration-underline small">Help Center</a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-circle-question fa-lg text-white-50"></i>
+                            <div>
+                                <p class="text-white fw-semibold mb-0 small">We'd love to hear what you think!</p>
+                                <a href="#" class="text-white text-decoration-underline small">Give Feedback</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between pt-3 gap-3">
+                <p class="small text-white-50 mb-0 text-center text-sm-start">
+                    Copyright <i class="fa-regular fa-copyright fa-xs me-1"></i> Merto. All Rights Reserved
+                </p>
+                <img src="img/paypal.png" alt="Paypal payment methods" class="img-fluid" style="max-width: 220px;">
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+        document.querySelectorAll('.hover-zoom').forEach(img => {
+            img.addEventListener('mouseover', function () {
+                this.style.transform = 'scale(1.1)'
+            })
+            img.addEventListener('mouseout', function () {
+                this.style.transform = 'scale(1)'
+            })
+        })
+    </script>
+    <script>
+
+        new Splide('#topslider', {
+            type: 'loop',
+            perPage: 5,
+            perMove: 1,
+            gap: 0,
+            pagination: false,
+            arrows: true,
+        }).mount();
+    </script>
+    <script>
+        new Splide('#firstslider', {
+            type: 'loop',
+            perPage: 5,
+            perMove: 1,
+            gap: 0,
+            pagination: false,
+            arrows: true,
+        }).mount();
+    </script>
+    <script>
+        new Splide('#secondslider', {
+            type: 'loop',
+            perPage: 3,
+            perMove: 1,
+            gap: '1.5rem',
+
+        }).mount();
+    </script>
+    <script>
+        function changeImg(el) {
+            document.getElementById('mainImg').src = el.src;
+            document.querySelectorAll('.thumb').forEach(img => img.classList.remove('border-2', 'border-dark', 'active-thumb'));
+            el.classList.add('border-2', 'border-dark', 'active-thumb');
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

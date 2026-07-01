@@ -1,0 +1,247 @@
+body {
+    padding-top: 70px;
+
+}
+
+.w-10 {
+    width: 9%;
+}
+
+.hover-red {
+    color: black;
+    text-decoration: none;
+}
+
+.hover-red:hover {
+    color: red !important;
+}
+
+.red-click:hover {
+    color: red !important;
+}
+
+
+.hover-red-btn {
+    color: aliceblue;
+}
+
+.hover-red-btn:hover {
+    background-color: red !important;
+}
+
+.hover-underline-red,
+.hover-underline-black,
+.hover-underline-white {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.hover-underline-red::after,
+.hover-underline-black::after,
+.hover-underline-white::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 0;
+    height: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.hover-underline-red::after {
+    background-color: red;
+}
+
+.hover-underline-black::after {
+    background-color: black;
+}
+
+.hover-underline-white::after {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hover-underline-red:hover {
+    color: red;
+}
+
+.hover-underline-black:hover {
+    color: black;
+}
+
+.hover-underline-white:hover {
+    color: white;
+}
+
+.hover-underline-red:hover::after,
+.hover-underline-black:hover::after,
+.hover-underline-white:hover::after {
+    width: 100%;
+}
+
+
+.product-bar {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+
+
+.card-img-top:hover {
+    opacity: 0.7;
+}
+
+.tag {
+    padding: 0 10px;
+    border-left: 1px solid #655f5f;
+    height: 2px;
+}
+
+
+
+.breadcrumb-item a:hover {
+    text-decoration: underline !important;
+}
+
+.related-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.blog-slash {
+    display: inline-block;
+    width: 28px;
+    height: 1px;
+    background-color: #aaa;
+}
+
+
+
+
+
+
+.related-icons {
+    visibility: hidden;
+}
+
+.related-card:hover .related-icons {
+    visibility: visible;
+}
+
+.related-card:hover .related-icons button {
+    animation-name: fadeInDown;
+    animation-duration: 0.8s;
+}
+
+
+
+.rottate,
+.rotate-second-section {
+    overflow: hidden;
+}
+
+.rottate img,
+.rotate-second-section img {
+    transition: all 1s;
+}
+
+.rotate-second-section:hover img {
+    transform: scale(1.1);
+}
+
+.rottate:hover img {
+    transform: scale(1.2) rotate(2deg);
+}
+
+
+.bdge {
+    color: white;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.usd-wrapper:hover .usd-menu {
+    display: block !important;
+
+}
+
+.english-wrapper:hover .english-menu {
+    display: block !important;
+}
+
+.english-menu img {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+}
+
+
+.homepage-wrapper {
+    position: static;
+    display: inline-block;
+}
+
+.mega-menu-content {
+    position: fixed;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.homepage-wrapper:hover .mega-menu-content {
+    margin-top: 2px;
+    visibility: visible;
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.homepage-wrapper:hover::after {
+
+    content: "";
+    position: fixed;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+
+.hero-section {
+    height: 35rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#oneslider .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+    border: none;
+}
+
+
